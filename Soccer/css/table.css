@@ -1,0 +1,44 @@
+.TABLE{
+	background-color:#35353F;
+
+}
+.TABLE .table_box{
+	padding-top: 100px;
+	padding-bottom:50px; 
+	width:35%; 
+	color:grey;
+	margin-right: auto;
+	margin-left: auto; 
+}
+.TABLE .table_box table{
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 10px 10px 5px #1A1E24; 
+}
+.TABLE .table_box h4{
+	text-align: center;
+}
+tr:nth-child(even){background-color: #F5F7F9}
+tr:nth-child(odd){background-color: #E6E6E6}
+.TABLE .table_box #table_title{
+	font-weight: bold;
+	text-align: center;
+}
+.TABLE .table_box #table_rank{
+	text-align: center;
+}
+.TABLE .table_box #table_title #number{
+	width:40px;
+}
+.TABLE .table_box #table_title td,th{
+	width:100px;
+}
+.TABLE .table_box #table_title th{
+	background-color: #1A1E24;
+	text-align: center;
+}
+@media(max-width:1366px){
+	.TABLE .table_box{
+		width:100%;
+	}
+}
